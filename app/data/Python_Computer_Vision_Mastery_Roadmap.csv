@@ -1,0 +1,33 @@
+Topic,Category,Difficulty,Complexity,Overall Score,Pros,Cons,Common Libraries
+Understanding Pixels & Images,Fundamentals,Easy,Low,8.5,Essential for image processing,Limited real-world application,"NumPy, OpenCV"
+Image File Handling,Fundamentals,Easy,Low,8.7,"Load, save, and convert image formats",Requires familiarity with file paths,"OpenCV, PIL"
+"Color Spaces (RGB, HSV, Grayscale)",Fundamentals,Easy,Medium,9.0,Used for color segmentation & transformations,Understanding color models can be confusing,"OpenCV, NumPy"
+Image Thresholding,Image Processing,Medium,Medium,9.2,Essential for segmentation,Simple techniques may not work on complex images,OpenCV
+Smoothing & Blurring,Image Processing,Medium,Medium,9.3,Reduces noise in images,Can remove important details,OpenCV
+"Edge Detection (Sobel, Canny)",Image Processing,Medium,Medium,9.4,Important for feature extraction,Sensitive to noise & lighting,OpenCV
+Morphological Operations,Image Processing,Medium,Medium,9.0,Useful for refining image masks,Not suitable for all tasks,OpenCV
+Corner & Blob Detection,Feature Detection,Medium,High,9.2,Detects key image points,Can fail with rotation or scale changes,OpenCV
+SIFT & SURF,Feature Detection,Hard,High,9.5,Robust feature matching,"Patented algorithms, may require licensing",OpenCV
+FAST & ORB,Feature Detection,Hard,High,9.4,Fast and effective alternative to SIFT/SURF,Less accurate in some cases,OpenCV
+Haar Cascades,Object Detection,Medium,Medium,8.8,Fast face detection,Less effective in real-world conditions,OpenCV
+HOG + SVM,Object Detection,Medium,High,9.0,Works well for pedestrian detection,Slower than deep learning models,"OpenCV, Scikit-Learn"
+YOLOv8,Object Detection,Hard,High,9.7,"Real-time, highly accurate object detection",Requires model training,"Ultralytics YOLO, OpenCV"
+Faster R-CNN,Object Detection,Hard,High,9.5,High-accuracy object detection,Computationally expensive,"TensorFlow, PyTorch"
+Thresholding & Watershed,Segmentation,Medium,Medium,9.0,Basic image segmentation techniques,Limited to simple cases,OpenCV
+GrabCut Algorithm,Segmentation,Medium,Medium,9.1,Good for semi-automated segmentation,Manual input required,OpenCV
+DeepLabV3,Segmentation,Hard,High,9.5,Deep learning-based segmentation,Requires pre-trained models,"TensorFlow, PyTorch"
+Tesseract OCR,OCR,Medium,Medium,9.0,Extracts text from images,Struggles with poor-quality text,"Tesseract, OpenCV"
+EasyOCR,OCR,Medium,Medium,9.2,More accurate OCR with deep learning,Requires GPU for high-speed inference,"EasyOCR, PyTorch"
+MediaPipe Pose,Pose Estimation,Medium,Medium,9.3,Real-time pose detection,Limited to human pose estimation,"MediaPipe, OpenCV"
+OpenPose,Pose Estimation,Hard,High,9.6,High-accuracy multi-person pose estimation,Computationally expensive,"TensorFlow, PyTorch"
+"Optical Flow (Farneback, Lucas-Kanade)",Motion Analysis,Medium,Medium,9.0,Tracks motion in videos,Prone to errors in fast motion,OpenCV
+"Object Tracking (CSRT, MOSSE, KCF)",Motion Analysis,Medium,High,9.2,Real-time object tracking,Performance varies per algorithm,OpenCV
+DeepSORT,Motion Analysis,Hard,High,9.4,Multi-object tracking with deep learning,Computationally heavy,"TensorFlow, PyTorch"
+Stereo Vision & Depth Estimation,3D Vision,Hard,High,9.5,Estimates depth from two images,Requires good camera calibration,OpenCV
+3D Point Clouds,3D Vision,Hard,High,9.6,Used in robotics & mapping,Processing can be slow,"Open3D, PCL"
+Face Detection,Biometrics,Medium,Medium,9.0,Detects faces in images,Basic models can struggle with occlusion,"OpenCV, Dlib"
+FaceNet,Biometrics,Hard,High,9.5,Highly accurate face recognition,Requires deep learning knowledge,"TensorFlow, PyTorch"
+DeepFace,Biometrics,Medium,High,9.3,Pre-trained deep learning-based face recognition,Can be slow on CPU,DeepFace
+Autoencoders,Generative Models,Hard,High,9.4,Used for image denoising & generation,Difficult to train,"TensorFlow, PyTorch"
+"GANs (DCGAN, CycleGAN, StyleGAN)",Generative Models,Hard,High,9.7,State-of-the-art image synthesis,Requires extensive training,"TensorFlow, PyTorch"
+Stable Diffusion,Generative Models,Hard,High,9.8,AI-powered image generation,Computationally expensive,"Hugging Face, PyTorch"

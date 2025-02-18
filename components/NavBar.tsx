@@ -33,8 +33,9 @@ export default function NavBar() {
   }
 
   const navLinks = [
-    { href: '/', label: 'Python Path' },
+    { href: '/python-path', label: 'Python Path' },
     { href: '/js-path', label: 'JavaScript Path' },
+    { href: '/topics', label: 'Topics' },
   ]
 
   return (

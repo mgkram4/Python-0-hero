@@ -1,0 +1,101 @@
+Model/Tool,Category,Difficulty,Complexity,Overall Score,Pros,Cons,Frameworks,General Use Case
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Suricata,Network Intrusion Detection,Medium,High,9.2,"Multi-threaded, fast packet analysis",More resource-intensive than Snort,"Python, C",Real-time network threat detection
+Zeek (Bro),Network Security Monitoring,Hard,High,9.4,"Highly scalable, deep network analysis",Complex to deploy and maintain,"Python, C++",Detailed network traffic inspection and logging
+OWASP ZAP,Web Application Security,Easy,Medium,8.8,Great for automated web vulnerability scanning,Limited manual testing capabilities,"Java, Python",Identifying vulnerabilities in web applications
+Burp Suite,Web Application Security,Medium,Medium,9.3,Industry-standard for web penetration testing,Expensive Pro version,"Java, Python",Ethical hacking and penetration testing of web applications
+OSSEC,Host Intrusion Detection,Medium,Medium,9.0,Good for real-time log analysis,Requires tuning for false positives,"C, Python",Monitoring file integrity and log-based anomaly detection
+Wazuh,Host Intrusion Detection,Medium,High,9.2,"SIEM integration, open-source",Resource-intensive on large networks,"Python, C",Enterprise-level threat detection and response
+YARA,Malware Analysis,Medium,Medium,8.9,Efficient rule-based malware detection,Needs strong rule definition skills,"C, Python",Detecting and classifying malware families
+Cuckoo Sandbox,Malware Analysis,Hard,High,9.3,Automated malware analysis sandbox,Can be detected by advanced malware,Python,Analyzing malware behavior in a virtual environment
+Multi-Factor Authentication (MFA),Identity Security,Easy,Medium,9.6,Highly effective against credential theft,Can inconvenience users,N/A,Enhancing account security with multiple authentication methods
+Okta,Identity & Access Management,Easy,Medium,9.0,Easy SSO & multi-factor authentication,Cloud-based dependency,"Python, API",Managing user authentication and access control
+OpenSSL,Cryptography,Medium,High,9.4,Standard for secure web communications,Command-line interface can be complex,"C, Python",Encrypting and securing internet communications
+End-to-End Encryption,Secure Communication,Medium,High,9.7,Protects messages from interception,Key management can be complex,N/A,Ensuring privacy in messaging and email services
+Splunk,SIEM,Medium,High,9.6,Enterprise-grade security monitoring,Expensive for large-scale use,"Python, Java",Aggregating and analyzing security logs
+"ELK Stack (Elastic, Logstash, Kibana)",SIEM,Medium,High,9.4,Great for log analysis & threat hunting,Requires dedicated resources,"Python, Java",Monitoring and analyzing security events in real-time
+Metasploit,Penetration Testing,Medium,High,9.5,"Powerful, modular exploit framework",Can be complex for beginners,"Ruby, Python",Simulating real-world attacks on systems
+Empire,Post-Exploitation,Hard,High,9.0,Powerful adversary simulation tool,Can be flagged by AV easily,"Python, PowerShell",Post-exploitation and maintaining system access
+pfSense,Firewall,Medium,Medium,9.2,Open-source firewall solution,Requires networking expertise,"C, PHP, Python",Protecting networks from unauthorized access
+iptables,Firewall,Hard,High,9.0,Highly customizable for Linux security,Difficult to configure for beginners,"C, Python",Configuring and managing network traffic rules
+Firmware Analysis Toolkit,IoT Security,Hard,High,9.1,Helps analyze and reverse engineer firmware,Steep learning curve,"Python, Bash",Analyzing firmware security for IoT devices
+Shodan,IoT & Internet-wide Scanning,Medium,Medium,9.3,Finds exposed devices online,Ethical concerns if misused,"Python, API",Identifying publicly accessible IoT devices
+Volatility,Memory Forensics,Medium,High,9.4,Industry-standard for RAM forensics,Requires deep forensic knowledge,Python,Analyzing system memory for threats
+Autopsy,Disk Forensics,Easy,Medium,8.9,User-friendly forensic investigation tool,Limited Linux support,"Java, Python",Extracting forensic evidence from disk images
+Canarytokens,Deception & Honeytokens,Easy,Low,9.0,Easy to use and deploy,Limited customization,"Python, Web",Tracking unauthorized access using embedded tokens
+T-Pot,Honeypot Framework,Medium,High,9.2,Comprehensive honeypot platform,Resource-intensive,"Python, Docker",Deceiving and detecting attackers via honeypots
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic
+Snort,Network Intrusion Detection,Medium,Medium,9.0,"Open-source, highly customizable",Requires expertise to configure,"Python, C",Detecting and blocking malicious network traffic

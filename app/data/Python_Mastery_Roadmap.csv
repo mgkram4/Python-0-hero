@@ -1,0 +1,33 @@
+Topic,Category,Difficulty,Complexity,Overall Score,Pros,Cons,Common Libraries
+Variables & Data Types,Syntax & Basics,Easy,Low,8.5,Essential for writing Python code,Limited on its own,Core Python
+Operators & Expressions,Syntax & Basics,Easy,Low,8.7,Foundation of logical operations,Can be confusing for beginners,Core Python
+"Control Flow (if, for, while)",Syntax & Basics,Easy,Low,9.0,Essential for programming logic,Syntax can be tricky for nested loops,Core Python
+Functions & Scope,Syntax & Basics,Medium,Medium,9.2,Improves code reusability,Understanding recursion can be difficult,Core Python
+Lists,Data Structures,Easy,Low,9.0,Most common mutable data structure,Can be inefficient for large datasets,Core Python
+Tuples,Data Structures,Easy,Low,8.8,Immutable and faster than lists,Cannot be modified after creation,Core Python
+Dictionaries,Data Structures,Medium,Medium,9.3,Useful for key-value data storage,Not memory efficient,Core Python
+Sets,Data Structures,Medium,Medium,8.9,Great for unique element storage,"Unordered, no duplicate values",Core Python
+Stacks & Queues,Advanced Data Structures,Hard,High,9.4,Useful in algorithms & real-time applications,Requires deeper understanding,Collections module
+Linked Lists,Advanced Data Structures,Hard,High,9.2,Efficient for insertions & deletions,Complex implementation,"Core Python, Data Structures"
+Binary Trees & Graphs,Advanced Data Structures,Hard,High,9.5,Essential for algorithms & AI,Harder to grasp for beginners,"NetworkX, NumPy"
+Classes & Objects,OOP,Medium,Medium,9.3,Foundation of modular design,Requires understanding of instances & methods,Core Python
+Inheritance & Polymorphism,OOP,Medium,High,9.5,Improves code reusability,Can be overused leading to complexity,Core Python
+Encapsulation & Abstraction,OOP,Hard,High,9.4,Ensures data protection & cleaner code,Difficult to enforce in dynamic languages,Core Python
+Lambda Functions,Functional Programming,Medium,Medium,8.9,"Useful for short, anonymous functions",Limited readability,Core Python
+"Map, Filter, Reduce",Functional Programming,Medium,Medium,9.0,Enhances list transformations,Not as explicit as loops,Core Python
+Decorators,Functional Programming,Hard,High,9.3,Great for extending function behavior,Syntax can be difficult,Core Python
+Reading/Writing Files,File Handling,Easy,Low,8.9,Essential for data persistence,Can cause errors if mishandled,Core Python
+CSV & JSON Handling,File Handling,Medium,Medium,9.2,Used in real-world data storage,Formatting inconsistencies,"Pandas, JSON Module"
+Try-Except Blocks,Error Handling,Medium,Medium,9.0,Prevents program crashes,Improper handling can hide bugs,Core Python
+Logging & Debugging,Error Handling,Medium,High,9.3,Essential for production software,Can generate excessive logs,"Logging module, PDB"
+Multithreading,Performance Optimization,Hard,High,9.2,Speeds up I/O bound tasks,Not effective for CPU-bound tasks,Threading module
+Multiprocessing,Performance Optimization,Hard,High,9.4,Useful for CPU-bound tasks,Requires careful memory management,Multiprocessing module
+NumPy,Scientific Computing,Medium,Medium,9.5,Foundation of scientific computing,Requires understanding of arrays,NumPy
+Pandas,Data Analysis,Medium,Medium,9.6,Great for data manipulation,Memory intensive for large datasets,Pandas
+Matplotlib & Seaborn,Data Visualization,Medium,Medium,9.3,Useful for data storytelling,Complex for advanced charts,"Matplotlib, Seaborn"
+Scikit-Learn,Machine Learning,Hard,High,9.7,Powerful ML toolkit,Requires ML understanding,Scikit-learn
+TensorFlow & PyTorch,Deep Learning,Hard,High,9.8,Industry standard for AI,High learning curve,"TensorFlow, PyTorch"
+Flask & FastAPI,Web Development,Medium,Medium,9.5,Fast backend frameworks,Limited for full-stack use,"Flask, FastAPI"
+Django,Web Development,Medium,High,9.4,Robust web framework,Heavy for small projects,Django
+Selenium,Automation,Medium,Medium,9.2,Automates browser interactions,Prone to website changes,Selenium
+PyTest,Testing,Medium,Medium,9.3,Essential for code quality,Requires learning testing strategies,PyTest

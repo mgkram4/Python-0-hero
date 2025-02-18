@@ -1,0 +1,101 @@
+Model,Category,Difficulty,Complexity,Overall Score,Pros,Cons,Frameworks
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Polynomial Regression,Regression,Easy,Low,8.7,Captures non-linearity better than linear regression,Prone to overfitting,Scikit-learn
+Ridge Regression,Regression,Medium,Medium,9.0,Reduces overfitting via L2 regularization,Not robust to irrelevant features,Scikit-learn
+Lasso Regression,Regression,Medium,Medium,9.1,Feature selection via L1 regularization,Can eliminate useful features,Scikit-learn
+Logistic Regression,Classification,Easy,Low,8.8,Interpretable and efficient for binary classification,Assumes linear separability,"Scikit-learn, Statsmodels"
+K-Nearest Neighbors (KNN),Classification,Easy,Low,8.6,Simple and works well on small datasets,Computationally expensive for large datasets,Scikit-learn
+Support Vector Machines (SVM),Classification,Medium,Medium,9.2,Works well with high-dimensional data,Slower for large datasets,Scikit-learn
+Decision Trees,Classification,Easy,Low,8.9,Easy to interpret,Prone to overfitting,Scikit-learn
+Random Forest,Classification,Medium,Medium,9.4,Robust and reduces overfitting,Less interpretable than single trees,Scikit-learn
+Gradient Boosting,Classification,Hard,High,9.5,High accuracy for structured data,Longer training time,"XGBoost, LightGBM, Scikit-learn"
+K-Means,Clustering,Easy,Low,8.7,Fast and scalable,Assumes spherical clusters,Scikit-learn
+DBSCAN,Clustering,Medium,Medium,9.1,Detects arbitrary-shaped clusters,Sensitive to parameter tuning,Scikit-learn
+Hierarchical Clustering,Clustering,Medium,Medium,8.9,Doesn't require pre-specifying clusters,Computationally expensive,Scikit-learn
+Principal Component Analysis (PCA),Dimensionality Reduction,Medium,Medium,9.0,Reduces dimensionality while preserving variance,Assumes linear relationships,Scikit-learn
+t-SNE,Dimensionality Reduction,Medium,High,9.2,Great for visualization,Not suitable for large datasets,Scikit-learn
+Q-Learning,Reinforcement Learning,Hard,High,9.3,Works well in discrete action spaces,Slow convergence,"Python, OpenAI Gym"
+Deep Q-Network (DQN),Reinforcement Learning,Hard,High,9.4,Uses deep learning for reinforcement learning,Computationally expensive,"TensorFlow, PyTorch"
+Isolation Forest,Anomaly Detection,Medium,Medium,9.0,Works well for high-dimensional data,Sensitive to outliers in training data,Scikit-learn
+One-Class SVM,Anomaly Detection,Medium,Medium,8.8,Good for novelty detection,Not scalable for large datasets,Scikit-learn
+ARIMA,Time Series Forecasting,Medium,Medium,9.0,Effective for univariate time series,Requires manual parameter tuning,Statsmodels
+LSTM,Time Series Forecasting,Hard,High,9.5,Handles long-term dependencies well,Requires large datasets,"TensorFlow, PyTorch"
+Gaussian Mixture Model (GMM),Generative Modeling,Medium,Medium,9.0,Probabilistic clustering model,Slow for high-dimensional data,Scikit-learn
+Variational Autoencoders (VAE),Generative Modeling,Hard,High,9.5,Great for unsupervised learning & generation,Computationally expensive,"TensorFlow, PyTorch"
+Naive Bayes,Probabilistic Classification,Easy,Low,8.8,Fast and works well with categorical data,Assumes feature independence,Scikit-learn
+Bayesian Networks,Probabilistic Modeling,Hard,High,9.3,Encodes probabilistic dependencies,Requires expert domain knowledge,"pgmpy, PyMC3"
+Auto-Sklearn,AutoML,Easy,Medium,9.2,Automates model selection & tuning,Computationally expensive,Auto-Sklearn
+TPOT,AutoML,Medium,Medium,9.3,Optimizes pipelines using genetic algorithms,Can be slow,TPOT
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
+Linear Regression,Regression,Easy,Low,8.5,Simple and interpretable,Not suitable for non-linear data,"Scikit-learn, Statsmodels"
