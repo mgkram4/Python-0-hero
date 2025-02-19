@@ -1,9 +1,10 @@
 'use client'
 
+import NavBar from '@/components/NavBar';
 import { loadStripe } from '@stripe/stripe-js';
 import { motion } from 'framer-motion';
 import { FiAward, FiBarChart2, FiBook, FiClock, FiCode, FiCpu, FiDatabase, FiPlayCircle, FiTerminal } from 'react-icons/fi';
-import NavBar from '../components/NavBar';
+
 
 interface Course {
   id: string;
@@ -316,7 +317,7 @@ const LearningPath = () => {
     ]
   };
 
-  const bundles = [];
+
 
   const handlePurchase = async (stripePriceId: string) => {
     try {
